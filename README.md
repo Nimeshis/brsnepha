@@ -2,6 +2,25 @@
 
 This project is a React-based website for the Nepal Public Health Association.
 
+## Deploying to GitHub Pages
+
+To deploy this React application to GitHub Pages, follow these steps:
+
+1. Build and deploy the application:
+   ```
+   npm run deploy
+   ```
+
+2. Go to your repository settings on GitHub.
+
+3. Scroll down to the GitHub Pages section.
+
+4. Select "gh-pages" branch and "root" folder.
+
+5. Click "Save".
+
+6. Your site will be available at https://Nimeshis.github.io/brsnepha
+
 ## Deploying to cPanel under a Subdirectory
 
 To deploy this React application to cPanel under a subdirectory called "/nepha", follow these steps:
