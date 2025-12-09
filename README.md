@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Nepal Public Health Association (NEPHA)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based website for the Nepal Public Health Association.
+
+## Deploying to cPanel under a Subdirectory
+
+To deploy this React application to cPanel under a subdirectory called "/nepha", follow these steps:
+
+1. Build the application:
+   ```
+   npm run build
+   ```
+
+2. Upload the contents of the `build` folder to your cPanel file manager in the `/nepha` directory (e.g., `public_html/nepha`).
+
+3. The included `.htaccess` file will handle routing for React Router within the subdirectory.
 
 ## Available Scripts
 

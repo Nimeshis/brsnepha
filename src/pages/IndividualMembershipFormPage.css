@@ -1,0 +1,145 @@
+/* Individual Membership Form Page Styles */
+.individual-membership-form-page .page-header {
+  background-color: var(--light-bg);
+  padding: 2rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.individual-membership-form-page .page-header h1 {
+  color: var(--primary-blue);
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.individual-membership-form-page .page-header p {
+  color: var(--gray-text);
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.individual-membership-form-page .form-content {
+  padding: 1rem 0;
+}
+
+.individual-membership-form-page .form-section {
+  margin-bottom: 2rem;
+}
+
+.individual-membership-form-page .section-title {
+  color: var(--primary-blue);
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.individual-membership-form-page .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background-color: var(--secondary-red);
+}
+
+.individual-membership-form-page h3 {
+  color: var(--primary-blue);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.individual-membership-form-page h4 {
+  color: var(--primary-blue);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.individual-membership-form-page ul,
+.individual-membership-form-page ol {
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+}
+
+.individual-membership-form-page li {
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.individual-membership-form-page p {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.individual-membership-form-page .benefit-card {
+  background: var(--light-bg);
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 3px 10px var(--shadow-light);
+  border: 1px solid var(--border-color);
+  margin-bottom: 1.5rem;
+}
+
+.individual-membership-form-page .requirement-card {
+  background: var(--light-bg);
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 3px 10px var(--shadow-light);
+  border: 1px solid var(--border-color);
+  margin-bottom: 1.5rem;
+}
+
+.individual-membership-form-page .fee-card {
+  background: var(--light-bg);
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 3px 10px var(--shadow-light);
+  border: 1px solid var(--border-color);
+  margin-bottom: 1.5rem;
+}
+
+.individual-membership-form-page .process-card {
+  background: var(--light-bg);
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 3px 10px var(--shadow-light);
+  border: 1px solid var(--border-color);
+  margin-bottom: 1.5rem;
+}
+
+.individual-membership-form-page .contact-card {
+  background: var(--light-bg);
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 3px 10px var(--shadow-light);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .individual-membership-form-page .page-header h1 {
+    font-size: 1.7rem;
+  }
+  
+  .individual-membership-form-page .page-header p {
+    font-size: 1rem;
+  }
+  
+  .individual-membership-form-page .section-title {
+    font-size: 1.3rem;
+  }
+  
+  .individual-membership-form-page .benefit-card,
+  .individual-membership-form-page .requirement-card,
+  .individual-membership-form-page .fee-card,
+  .individual-membership-form-page .process-card,
+  .individual-membership-form-page .contact-card {
+    padding: 1rem;
+  }
+}

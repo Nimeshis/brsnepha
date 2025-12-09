@@ -1,0 +1,21 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff; /* Clean white background */
+}
+
+main {
+  flex: 1;
+  padding: 0; /* Removed all padding to eliminate gap between header and content */
+  background-color: #ffffff; /* Clean white background */
+}
+
+/* Section spacing */
+main > section {
+  margin-bottom: 2rem; /* Reduced from 3rem to 2rem for better spacing */
+}
+
+main > section:last-child {
+  margin-bottom: 0;
+}

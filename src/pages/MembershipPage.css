@@ -1,0 +1,78 @@
+.membership-page {
+  padding: 2rem 0;
+}
+
+.membership-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.membership-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.membership-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.benefits-section h2,
+.membership-form h2 {
+  margin: 2rem 0 1rem;
+}
+
+.benefits-section ul {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.benefits-section li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: var(--light-bg);
+  color: var(--gray-text);
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background-color: var(--primary-blue);
+  color: var(--light-bg);
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}

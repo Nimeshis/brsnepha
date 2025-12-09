@@ -1,0 +1,56 @@
+/* Promote Us Page Styles */
+.promote-us-page .page-header {
+  background-color: var(--light-bg);
+  padding: 3rem 0;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.promote-us-page .page-header h1 {
+  color: var(--primary-blue);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.promote-us-page .page-header p {
+  color: var(--gray-text);
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.promote-us-page .promote-content {
+  padding: 2rem 0;
+}
+
+.promote-us-page .promote-section {
+  margin-bottom: 3rem;
+}
+
+.promote-us-page .section-title {
+  color: var(--primary-blue);
+  position: relative;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.promote-us-page .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-red);
+}
+
+@media (max-width: 768px) {
+  .promote-us-page .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .promote-us-page .page-header p {
+    font-size: 1rem;
+  }
+}
