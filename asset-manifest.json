@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/brsnepha/static/css/main.fbef1761.css",
+    "main.js": "/brsnepha/static/js/main.9c15a048.js",
+    "static/js/453.6b6a49e0.chunk.js": "/brsnepha/static/js/453.6b6a49e0.chunk.js",
+    "index.html": "/brsnepha/index.html",
+    "main.fbef1761.css.map": "/brsnepha/static/css/main.fbef1761.css.map",
+    "main.9c15a048.js.map": "/brsnepha/static/js/main.9c15a048.js.map",
+    "453.6b6a49e0.chunk.js.map": "/brsnepha/static/js/453.6b6a49e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbef1761.css",
+    "static/js/main.9c15a048.js"
+  ]
+}
